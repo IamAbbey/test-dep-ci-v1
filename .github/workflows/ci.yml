@@ -13,4 +13,4 @@ jobs:
     name: A job to update dependency
     steps:
       - name: step
-        uses: IamAbbey/test-docker-action@v2
+        uses: IamAbbey/test-docker-action
