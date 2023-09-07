@@ -12,4 +12,5 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to update dependency
     steps:
-    - uses: IamAbbey/test-docker-action@v2
+      - name: step
+        uses: IamAbbey/test-docker-action@v2
