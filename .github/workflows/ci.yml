@@ -7,7 +7,7 @@ on:
 jobs:
   update_dependency:
     env:
-      ACCESS_TOKEN: "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"
+      ACCESS_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     name: A job to update dependency
