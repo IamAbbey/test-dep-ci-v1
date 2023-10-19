@@ -8,7 +8,7 @@ export GITHUB_REPOSITORY_OWNER=$2
 export DESTINATION_REPO=$3
 export DEPENDENCY_NAME=$4
 export DESTINATION_BASE_BRANCH="master"
-export API_TOKEN_GITHUB="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"
+export API_TOKEN_GITHUB=""
 export NEW_BRANCH_NAME="dependency-update-$MERGE_COMMIT_SHA"
 
 if [ -z "$MERGE_COMMIT_SHA" ]
